@@ -1,0 +1,10 @@
+torch
+numpy
+scipy
+pyarrow
+pyyaml
+matplotlib
+tqdm
+einops
+einops-exts
+rotary-embedding-torch

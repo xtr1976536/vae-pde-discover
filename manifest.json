@@ -1,0 +1,56 @@
+{
+  "upstream_commit": "06ba38d2db3e78edc2556ff7d9098119a42c2b07",
+  "snapshot_at": "2026-11-25T14:14:27.310456+08:00",
+  "runs": {
+    "vpc_joint_c8": {
+      "source": "full50_graph_wd5ZgX/c8",
+      "code": "joint",
+      "status": "RUNNING",
+      "epochs": 10,
+      "best_epoch": 10,
+      "validation_rmse": 0.20912084569142433,
+      "test_rmse": null,
+      "sha256": "083038bf9b0dafc84ca7ac3302c65490e80a7990ea4a69e753c0e9e1da1e6ad4"
+    },
+    "vpc_joint_c16": {
+      "source": "full50_graph_wd5ZgX/c16",
+      "code": "joint",
+      "status": "RUNNING",
+      "epochs": 10,
+      "best_epoch": 7,
+      "validation_rmse": 0.20439155658966132,
+      "test_rmse": null,
+      "sha256": "801e5276349d67adea077ed42dd63bb5bc26c7f6e1fd9396d4d0ff386cd40458"
+    },
+    "vpc_staged_c8": {
+      "source": "staged_c8_7HEZwB/full",
+      "code": "staged",
+      "status": "RUNNING",
+      "epochs": 8,
+      "best_epoch": 7,
+      "validation_rmse": 0.20953614213494068,
+      "test_rmse": null,
+      "sha256": "402e46c899f4e19d31388c4994966b10cba04a9b2c42bdc6167b7ac9e4c5cb9c"
+    },
+    "unet": {
+      "source": "full50_graph_wd5ZgX/unet",
+      "code": "unet",
+      "status": "RUNNING",
+      "epochs": 2,
+      "best_epoch": 2,
+      "validation_rmse": 0.194836217892373,
+      "test_rmse": null,
+      "sha256": "e6c0eb65d656edf15a5e2d4d782da85c3a74b62cdaa9dafcfca45f08a669047b"
+    },
+    "fno": {
+      "source": "full/realpdebench_fno_uv_20261125",
+      "code": "joint (shared runner)",
+      "status": "COMPLETE",
+      "epochs": 9,
+      "best_epoch": 4,
+      "validation_rmse": 0.23025145475931738,
+      "test_rmse": 0.2354387505700099,
+      "sha256": "1308db291669787bcdee8837e75b9db56d59e14aa07df0c24369a1b1436e74e0"
+    }
+  }
+}

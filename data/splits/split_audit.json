@@ -1,0 +1,41 @@
+{
+  "history": 20,
+  "horizon": 20,
+  "policy": "retain_test_then_validation_then_training",
+  "source": "/data1/users/liugang/src/eq-bpe/project/data/realpdebench/cylinder/hf_dataset",
+  "source_sha256": {
+    "train_index_real.json": "b98999baa6c34ef3e996ee6bc211e75755f047a8f9460e779a4da8768f137587",
+    "val_index_real.json": "1539fc36aeea25ab43a5341b2b1d3b72ce6c246661ae0031c3e5101509e6b9c7",
+    "test_index_real.json": "5ce0e8be090d7dbf73be7152c9e80289d71b7504dcc111e14c7ed63014ae42ca"
+  },
+  "prepared_sha256": {
+    "train_index_real.json": "e0b83ed1c5f50a4188d92f821054710f3e9f54f6633abadb21103cf2416ee340",
+    "val_index_real.json": "07c3bcd99a27f9aafcbbd29c1777c57d2517f49aa82cf5cbca728dbe080ef261",
+    "test_index_real.json": "4c61278361c410427caec83430d0f117330d439f52128b57430d75998f0e84ef"
+  },
+  "before": {
+    "train": 9063,
+    "val": 4820,
+    "test": 4827
+  },
+  "after": {
+    "train": 8141,
+    "val": 1234,
+    "test": 4827
+  },
+  "cross_split_overlapping_windows_before": {
+    "train_val": 512,
+    "train_test": 536,
+    "val_test": 3635
+  },
+  "cross_split_overlapping_windows_after": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "trajectory_counts": {
+    "train": 72,
+    "val": 92,
+    "test": 92
+  }
+}
