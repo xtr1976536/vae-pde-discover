@@ -1,6 +1,6 @@
 {
   "upstream_commit": "06ba38d2db3e78edc2556ff7d9098119a42c2b07",
-  "snapshot_at": "2026-11-25T14:14:27.310456+08:00",
+  "snapshot_at": "2026-11-25T14:22:13.625814+08:00",
   "runs": {
     "vpc_joint_c8": {
       "source": "full50_graph_wd5ZgX/c8",
@@ -26,11 +26,11 @@
       "source": "staged_c8_7HEZwB/full",
       "code": "staged",
       "status": "RUNNING",
-      "epochs": 8,
+      "epochs": 9,
       "best_epoch": 7,
       "validation_rmse": 0.20953614213494068,
       "test_rmse": null,
-      "sha256": "402e46c899f4e19d31388c4994966b10cba04a9b2c42bdc6167b7ac9e4c5cb9c"
+      "sha256": "30ef13e13dd69f937e3acbca1ac215b9431233e76e2c37a7c6ee668129a4c737"
     },
     "unet": {
       "source": "full50_graph_wd5ZgX/unet",

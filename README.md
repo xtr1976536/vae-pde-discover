@@ -4,13 +4,13 @@ Twenty-frame forecasts from twenty observed velocity frames on the RealPDEBench 
 
 ## Results snapshot
 
-Snapshot time 2026-11-25T14:14:27.310456+08:00.
+Snapshot time 2026-11-25T14:22:13.625814+08:00.
 
 | Run | Status | Completed epochs | Best validation RMSE | Test RMSE |
 |---|---|---:|---:|---:|
 | vpc_joint_c8 | RUNNING | 10 | 0.20912 | Pending |
 | vpc_joint_c16 | RUNNING | 10 | 0.20439 | Pending |
-| vpc_staged_c8 | RUNNING | 8 | 0.20954 | Pending |
+| vpc_staged_c8 | RUNNING | 9 | 0.20954 | Pending |
 | unet | RUNNING | 2 | 0.19484 | Pending |
 | fno | COMPLETE | 9 | 0.23025 | 0.23544 |
 
